@@ -75,7 +75,7 @@ make run-p3
 ```
 
 > [!IMPORTANT]
-> Make sure to create the input files beforehand
+> Make sure to create the input files beforehand!
 
 ### 🧪 Testing
 The solutions have been tested against the provided test cases and pass all performance requirements:
