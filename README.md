@@ -58,12 +58,12 @@ This repository contains powerful implementations of sophisticated graph algorit
 - 🛡️ Edge cases are handled gracefully with proper boundary checking
 
 ### 🔨 Building and Running
-# Compile all source files
+#### Compile all source files
 ```
 make build
 ```
 
-# Run individual solutions
+#### Run individual solutions
 ```
 make run-p1
 ```
