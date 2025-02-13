@@ -1,19 +1,22 @@
+# Exemplu de Makefile pentru soluții scrise în Java.
+
 .PHONY: build clean
 
-# Build all Java classes
 build: src/Numarare.class src/Trenuri.class src/Drumuri.class src/Scandal.class
 
-# Run commands (keep class files in src/)
+# Update the run commands to run from the src directory
 run-p1:
-	java -cp src Numarare
-run-p2:
-	java -cp src Trenuri
-run-p3:
-	java -cp src Drumuri
-run-p4:
-	java -Xss2m -cp src Scandal
+	cd src && java Numarare
 
-# Compilation rules (updated to use src/)
+run-p2:
+	cd src && java Trenuri
+
+run-p3:
+	cd src && java Drumuri
+
+run-p4:
+	cd src && java -Xss2m Scandal
+
 src/Numarare.class: src/Numarare.java
 	javac -d src $^
 
@@ -26,6 +29,6 @@ src/Drumuri.class: src/Drumuri.java
 src/Scandal.class: src/Scandal.java
 	javac -d src $^
 
-# Cleanup (remove class files from src/)
 clean:
 	rm -f src/*.class
+	rm -f src/*.out
