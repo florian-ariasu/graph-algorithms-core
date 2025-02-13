@@ -75,10 +75,10 @@ make run-p3
 ```
 
 > [!IMPORTANT]
-> Make sure to create the input files beforehand
+> Ensure that input files are created in advance
 
 > [!TIP]
-> You may add new rules in the Makefile in order to create and remove input/output files
+> You may consider adding new rules in the Makefile to automate the creation and removal of required input/output files
 
 ### 🧪 Testing
 The solutions have been tested against the provided test cases and pass all performance requirements:
