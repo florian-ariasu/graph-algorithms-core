@@ -1,29 +1,31 @@
-# Exemplu de Makefile pentru soluții scrise în Java.
-
 .PHONY: build clean
 
-build: Numarare.class Trenuri.class Drumuri.class Scandal.class
+# Build all Java classes
+build: src/Numarare.class src/Trenuri.class src/Drumuri.class src/Scandal.class
 
-# Nu compilați aici, nici măcar ca dependențe de reguli.
+# Run commands (keep class files in src/)
 run-p1:
-	java Numarare
+	java -cp src Numarare
 run-p2:
-	java Trenuri
+	java -cp src Trenuri
 run-p3:
-	java Drumuri
+	java -cp src Drumuri
 run-p4:
-	java -Xss2m Scandal
+	java -Xss2m -cp src Scandal
 
-# Schimbați numele surselor și ale binarelor (peste tot).
-Numarare.class: Numarare.java
-	javac $^
-Trenuri.class: Trenuri.java
-	javac $^
-Drumuri.class: Drumuri.java
-	javac $^
-Scandal.class: Scandal.java
-	javac $^
+# Compilation rules (updated to use src/)
+src/Numarare.class: src/Numarare.java
+	javac -d src $^
 
-# Vom șterge fișierele bytecode compilate.
+src/Trenuri.class: src/Trenuri.java
+	javac -d src $^
+
+src/Drumuri.class: src/Drumuri.java
+	javac -d src $^
+
+src/Scandal.class: src/Scandal.java
+	javac -d src $^
+
+# Cleanup (remove class files from src/)
 clean:
-	rm -f *.class
+	rm -f src/*.class
