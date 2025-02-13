@@ -75,7 +75,10 @@ make run-p3
 ```
 
 > [!IMPORTANT]
-> Make sure to create the input files beforehand!
+> Make sure to create the input files beforehand
+
+> [!TIP]
+> You may add new rules in the Makefile in order to create and remove input/output files
 
 ### 🧪 Testing
 The solutions have been tested against the provided test cases and pass all performance requirements:
