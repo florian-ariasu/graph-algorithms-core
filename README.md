@@ -142,8 +142,20 @@ cluj timișoara
 ---
 
 #### 3. **Drumuri (Minimum Cost Multi-Source Paths)**
+Given a directed graph with weighted edges and three specific nodes \(x\), \(y\), and \(z\), your goal is to find a subset of edges whose total weight is minimized such that:
+
+- There is at least one path starting from node \(x\) and reaching node \(z\)
+- There is at least one path starting from node \(y\) and reaching node \(z\)
+
+You need to determine the minimum sum of edge weights for such paths.
+
 **Input Format**:  
-The first line contains two integers, `n` (number of nodes) and `m` (number of edges). Each of the next `m` lines contains three integers `u v w`, representing an edge from node `u` to node `v` with a weight `w`.
+- The first line contains two integers \(n\) (number of nodes) and \(m\) (number of edges)
+- The following \(m\) lines describe the edges in the format \(u\ v\ w\), where \(u\) and \(v\) are nodes connected by an edge, and \(w\) is the weight of that edge
+- The last line contains three integers \(x\), \(y\), and \(z\), representing the three special nodes in the graph
+
+**Output Format**:
+- Output the minimum sum of the weights of edges that satisfy the condition described
 
 **Example Input**:
 ```
