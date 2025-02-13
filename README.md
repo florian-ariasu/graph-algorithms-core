@@ -1,3 +1,4 @@
+
 ## 🎯 Advanced Graph Algorithms Implementation Suite
 
 ### 🌟 Project Overview
@@ -92,6 +93,77 @@ The solutions have been tested against the provided test cases and pass all perf
 - 🎯 Implementation of more efficient data structures for graph representation
 
 ---
+
+### 📝 Example Input Files
+
+#### 1. **Numarare (Common Elementary Paths Counter)**
+**Input Format**:  
+The first line contains two integers, `n` (number of vertices) and `m` (number of edges). The next `m` lines describe the edges in the format `u v`, where `u` and `v` are the vertices connected by the edge. The last `m` lines describe the second set of edges.
+
+**Example Input**:
+```
+4 5
+1 2
+1 3
+2 3
+2 4
+3 4
+1 2
+1 4
+2 3
+2 4
+3 4
+```
+**Expected Output**:  
+```
+2
+```
+
+---
+
+#### 2. **Trenuri (Maximum Cities Path Finder)**
+**Input Format**:  
+The first line contains two city names, `A` and `B`, representing the start and end cities. The second line contains an integer `n` (number of connections), followed by `n` lines of city connections, each in the format `city1 city2`.
+
+**Example Input**:
+```
+bucurești timișoara
+4
+bucurești sibiu
+sibiu timișoara
+sibiu cluj
+cluj timișoara
+```
+**Expected Output**:  
+```
+4
+```
+
+---
+
+#### 3. **Drumuri (Minimum Cost Multi-Source Paths)**
+**Input Format**:  
+The first line contains two integers, `n` (number of nodes) and `m` (number of edges). Each of the next `m` lines contains three integers `u v w`, representing an edge from node `u` to node `v` with a weight `w`.
+
+**Example Input**:
+```
+5 7
+1 3 6
+1 4 5
+2 4 6
+2 5 5
+4 5 5
+5 3 2
+5 4 5
+2 1 3
+```
+**Expected Output**:  
+```
+13
+```
+
+---
+
 #### 🌟 Contributing
 Feel free to open issues and pull requests for any improvements you think would benefit this project!
 
