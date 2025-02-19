@@ -6,7 +6,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 ### 🚀 Problem Solutions
 
 #### 1. Common Elementary Paths Counter (Numarare) 🔍
-##### Algorithm Overview
+###### Algorithm Overview
 - **Core Concept**: Dynamic Programming with Graph Intersection
 - **Implementation Details**:
   - 📊 Constructs two directed acyclic graphs (DAGs) from input
@@ -17,7 +17,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 - **Space Complexity**: O(V + E)
 
 #### 2. Maximum Cities Path Finder (Trenuri) 🚂
-##### Algorithm Overview
+###### Algorithm Overview
 - **Core Concept**: Topological Sort with Path Length Maximization
 - **Implementation Details**:
   - 🗺️ Converts city names to indices using HashMap for efficient lookup
@@ -28,7 +28,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 - **Space Complexity**: O(V)
 
 #### 3. Minimum Cost Multi-Source Paths (Drumuri) 🌐
-##### Algorithm Overview
+###### Algorithm Overview
 - **Core Concept**: Modified Dijkstra's Algorithm with Multiple Sources
 - **Implementation Details**:
   - 🔍 Implements three Dijkstra searches (from x, y, and reversed from z)
@@ -175,8 +175,8 @@ You need to determine the minimum sum of edge weights for such paths.
 
 ---
 
-#### 🌟 Contributing
+### 🌟 Contributing
 Feel free to open issues and pull requests for any improvements you think would benefit this project!
 
-#### 📜 Licence
+### 📜 Licence
 This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
