@@ -178,5 +178,5 @@ You need to determine the minimum sum of edge weights for such paths.
 #### 🌟 Contributing
 Feel free to open issues and pull requests for any improvements you think would benefit this project!
 
-#### 📜 License
+#### 📜 Licence
 This project is licensed under the MIT License - see the LICENSE file for details
