@@ -48,7 +48,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 
 #### Code Organization
 - ✨ Each solution is encapsulated in its own class
-- 🎯 Utilizes Java's record feature for efficient pair storage
+- 🎯 Utilises Java's record feature for efficient pair storage
 - 📁 Implements clean file I/O with BufferedReader/BufferedWriter
 - 📏 Follows Google Java Style Guide conventions
 
@@ -87,7 +87,7 @@ The solutions have been tested against the provided test cases and pass all perf
 - ⏱️ Drumuri: 2.5s (C/C++), 3.5s (Java)
 
 ### 🔮 Future Improvements
-- 🔄 Potential optimization of space complexity in Trenuri solution
+- 🔄 Potential optimisation of space complexity in Trenuri solution
 - ⚡ Possible parallelization of Dijkstra searches in Drumuri
 - 🎯 Implementation of more efficient data structures for graph representation
 
