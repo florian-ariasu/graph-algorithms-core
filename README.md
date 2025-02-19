@@ -179,4 +179,4 @@ You need to determine the minimum sum of edge weights for such paths.
 Feel free to open issues and pull requests for any improvements you think would benefit this project!
 
 #### 📜 Licence
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
