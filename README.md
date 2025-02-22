@@ -5,7 +5,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 
 ### 🚀 Problem Solutions
 
-#### 1. Common Elementary Paths Counter (Numarare) 🔍
+#### 1. Common Elementary Paths Counter (Numarare) 
 ###### Algorithm Overview
 - **Core Concept**: Dynamic Programming with Graph Intersection
 - **Implementation Details**:
@@ -16,7 +16,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 - **Time Complexity**: O(V + E), where V is number of vertices and E is number of edges
 - **Space Complexity**: O(V + E)
 
-#### 2. Maximum Cities Path Finder (Trenuri) 🚂
+#### 2. Maximum Cities Path Finder (Trenuri) 
 ###### Algorithm Overview
 - **Core Concept**: Topological Sort with Path Length Maximization
 - **Implementation Details**:
@@ -27,7 +27,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V)
 
-#### 3. Minimum Cost Multi-Source Paths (Drumuri) 🌐
+#### 3. Minimum Cost Multi-Source Paths (Drumuri) 
 ###### Algorithm Overview
 - **Core Concept**: Modified Dijkstra's Algorithm with Multiple Sources
 - **Implementation Details**:
