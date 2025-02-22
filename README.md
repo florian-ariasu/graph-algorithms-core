@@ -1,4 +1,4 @@
-## 🎯 Advanced Graph Algorithms Implementation Suite
+## Advanced Graph Algorithms Implementation Suite
 
 ### 🌟 Project Overview
 This repository contains powerful implementations of sophisticated graph algorithms solving three distinct computational problems. The solutions are implemented in Java, emphasizing efficiency and clean code practices.
