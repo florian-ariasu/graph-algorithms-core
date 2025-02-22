@@ -9,10 +9,10 @@ This repository contains powerful implementations of sophisticated graph algorit
 ###### Algorithm Overview
 - **Core Concept**: Dynamic Programming with Graph Intersection
 - **Implementation Details**:
-  - 📊 Constructs two directed acyclic graphs (DAGs) from input
-  - 🔄 Identifies common edges between both graphs
-  - 💡 Uses DP to count common paths from source to destination
-  - 🧮 Maintains modulo arithmetic (10^9 + 7) for large numbers
+  - Constructs two directed acyclic graphs (DAGs) from input
+  - Identifies common edges between both graphs
+  - Uses DP to count common paths from source to destination
+  - Maintains modulo arithmetic (10^9 + 7) for large numbers
 - **Time Complexity**: O(V + E), where V is number of vertices and E is number of edges
 - **Space Complexity**: O(V + E)
 
@@ -20,10 +20,10 @@ This repository contains powerful implementations of sophisticated graph algorit
 ###### Algorithm Overview
 - **Core Concept**: Topological Sort with Path Length Maximization
 - **Implementation Details**:
-  - 🗺️ Converts city names to indices using HashMap for efficient lookup
-  - 📈 Implements topological sorting to respect DAG properties
-  - 🎯 Calculates maximum possible path length using dynamic programming
-  - 🛤️ Maintains path lengths through graph traversal
+  - Converts city names to indices using HashMap for efficient lookup
+  - Implements topological sorting to respect DAG properties
+  - Calculates maximum possible path length using dynamic programming
+  - Maintains path lengths through graph traversal
 - **Time Complexity**: O(V + E)
 - **Space Complexity**: O(V)
 
@@ -31,31 +31,31 @@ This repository contains powerful implementations of sophisticated graph algorit
 ###### Algorithm Overview
 - **Core Concept**: Modified Dijkstra's Algorithm with Multiple Sources
 - **Implementation Details**:
-  - 🔍 Implements three Dijkstra searches (from x, y, and reversed from z)
-  - ⚡ Uses Priority Queue for efficient minimum distance calculation
-  - 🎯 Combines distances to find optimal meeting point
-  - 🛡️ Handles edge cases with INF value checks
+  - Implements three Dijkstra searches (from x, y, and reversed from z)
+  - Uses Priority Queue for efficient minimum distance calculation
+  - Combines distances to find optimal meeting point
+  - Handles edge cases with INF value checks
 - **Time Complexity**: O((V + E) log V)
 - **Space Complexity**: O(V + E)
 
 ### 🛠️ Technical Implementation Details
 
 #### Data Structures Used
-- **Priority Queue** 📊: For efficient minimum distance calculations in Dijkstra's algorithm
-- **ArrayList** 📝: For adjacency list representation of graphs
-- **HashMap** 🗃️: For mapping city names to indices
-- **Arrays** 📊: For dynamic programming and distance storage
+- **Priority Queue**: For efficient minimum distance calculations in Dijkstra's algorithm
+- **ArrayList**: For adjacency list representation of graphs
+- **HashMap**: For mapping city names to indices
+- **Arrays**: For dynamic programming and distance storage
 
 #### Code Organization
-- ✨ Each solution is encapsulated in its own class
-- 🎯 Utilises Java's record feature for efficient pair storage
-- 📁 Implements clean file I/O with BufferedReader/BufferedWriter
-- 📏 Follows Google Java Style Guide conventions
+- Each solution is encapsulated in its own class
+- Utilises Java's record feature for efficient pair storage
+- Implements clean file I/O with BufferedReader/BufferedWriter
+- Follows Google Java Style Guide conventions
 
 ### ⚡ Performance Considerations
-- 🚀 All solutions are optimized to meet the time constraints specified in the problem statements
-- 💾 Memory usage is kept efficient through appropriate data structure choices
-- 🛡️ Edge cases are handled gracefully with proper boundary checking
+- All solutions are optimized to meet the time constraints specified in the problem statements
+- Memory usage is kept efficient through appropriate data structure choices
+- Edge cases are handled gracefully with proper boundary checking
 
 ### 🔨 Building and Running
 #### Compile all source files
@@ -82,14 +82,14 @@ make run-p3
 
 ### 🧪 Testing
 The solutions have been tested against the provided test cases and pass all performance requirements:
-- ⏱️ Numarare: 2s (C/C++), 3s (Java)
-- ⏱️ Trenuri: 3s (C/C++), 4s (Java)
-- ⏱️ Drumuri: 2.5s (C/C++), 3.5s (Java)
+- Numarare: 2s (C/C++), 3s (Java)
+- Trenuri: 3s (C/C++), 4s (Java)
+- Drumuri: 2.5s (C/C++), 3.5s (Java)
 
 ### 🔮 Future Improvements
-- 🔄 Potential optimisation of space complexity in Trenuri solution
-- ⚡ Possible parallelization of Dijkstra searches in Drumuri
-- 🎯 Implementation of more efficient data structures for graph representation
+- Potential optimisation of space complexity in Trenuri solution
+- Possible parallelization of Dijkstra searches in Drumuri
+- Implementation of more efficient data structures for graph representation
 
 ---
 
