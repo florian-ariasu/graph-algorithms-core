@@ -1,9 +1,9 @@
 ## Advanced Graph Algorithms Implementation Suite
 
-### 🌟 Project Overview
+### Project Overview
 This repository contains powerful implementations of sophisticated graph algorithms solving three distinct computational problems. The solutions are implemented in Java, emphasizing efficiency and clean code practices.
 
-### 🚀 Problem Solutions
+### Problem Solutions
 
 #### 1. Common Elementary Paths Counter (Numarare) 
 ###### Algorithm Overview
@@ -38,7 +38,7 @@ This repository contains powerful implementations of sophisticated graph algorit
 - **Time Complexity**: O((V + E) log V)
 - **Space Complexity**: O(V + E)
 
-### 🛠️ Technical Implementation Details
+### Technical Implementation Details
 
 #### Data Structures Used
 - **Priority Queue**: For efficient minimum distance calculations in Dijkstra's algorithm
@@ -52,12 +52,12 @@ This repository contains powerful implementations of sophisticated graph algorit
 - Implements clean file I/O with BufferedReader/BufferedWriter
 - Follows Google Java Style Guide conventions
 
-### ⚡ Performance Considerations
+### Performance Considerations
 - All solutions are optimized to meet the time constraints specified in the problem statements
 - Memory usage is kept efficient through appropriate data structure choices
 - Edge cases are handled gracefully with proper boundary checking
 
-### 🔨 Building and Running
+### Building and Running
 #### Compile all source files
 ```
 make build
@@ -80,20 +80,20 @@ make run-p3
 > [!TIP]
 > You may consider adding new rules in the Makefile to automate the creation and removal of required input/output files.
 
-### 🧪 Testing
+### Testing
 The solutions have been tested against the provided test cases and pass all performance requirements:
 - Numarare: 2s (C/C++), 3s (Java)
 - Trenuri: 3s (C/C++), 4s (Java)
 - Drumuri: 2.5s (C/C++), 3.5s (Java)
 
-### 🔮 Future Improvements
+### Future Improvements
 - Potential optimisation of space complexity in Trenuri solution
 - Possible parallelization of Dijkstra searches in Drumuri
 - Implementation of more efficient data structures for graph representation
 
 ---
 
-### 📝 Example Input Files
+### Example Input Files
 
 #### 1. **Numarare (Common Elementary Paths Counter)**
 **Input Format**:  
@@ -175,8 +175,8 @@ You need to determine the minimum sum of edge weights for such paths.
 
 ---
 
-### 🌟 Contributing
+### Contributing
 Feel free to open issues and pull requests for any improvements you think would benefit this project!
 
-### 📜 Licence
+### Licence
 This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
